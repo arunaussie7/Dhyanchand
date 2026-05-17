@@ -40,10 +40,10 @@ const services = [
 ];
 
 const crops = [
-  { name: "Coffee", img: coffeeImg, desc: "Premium Arabica and Robusta managed across hill-station estates." },
-  { name: "Pepper", img: pepperImg, desc: "High-yield black pepper vines cultivated under shade canopy." },
-  { name: "Cardamom", img: cardamomImg, desc: "Aromatic green cardamom grown in mist-laden plantation belts." },
-  { name: "Areca Nut", img: arecaImg, desc: "Tall areca palms managed for consistent multi-year yields." },
+  { name: "Coffee", img: coffeeImg, desc: "Premium Arabica and Robusta managed across hill-station estates.", pos: "object-center" },
+  { name: "Pepper", img: pepperImg, desc: "High-yield black pepper vines cultivated under shade canopy.", pos: "object-top" },
+  { name: "Cardamom", img: cardamomImg, desc: "Aromatic green cardamom grown in mist-laden plantation belts.", pos: "object-top" },
+  { name: "Areca Nut", img: arecaImg, desc: "Tall areca palms managed for consistent multi-year yields.", pos: "object-center" },
 ];
 
 const why = [
@@ -324,7 +324,7 @@ function HomePage() {
                     loading="lazy"
                     width={1280}
                     height={1280}
-                    className="h-full w-full object-cover transition-transform duration-[1.2s] group-hover:scale-110"
+                    className={`h-full w-full object-cover ${c.pos ?? "object-center"} transition-transform duration-[1.2s] group-hover:scale-110`}
                   />
                 </div>
                 <div className="p-6">
