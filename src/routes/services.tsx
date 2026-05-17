@@ -22,7 +22,16 @@ import {
   TowerControl,
 } from "lucide-react";
 import heroImg from "@/assets/hero-plantation.jpg";
-import parallaxImg from "@/assets/parallax-fields.jpg";
+import jcbImg from "@/assets/jcb-road-works.jpg";
+import solarImg from "@/assets/solar-agriculture.jpg";
+import waterImg from "@/assets/water-management.jpg";
+import exportSupportImg from "@/assets/export-support.jpg";
+import cropCultivationImg from "@/assets/crop-cultivation.jpg";
+import plantationMaintenanceImg from "@/assets/plantation-maintenance.jpg";
+import weeklyReportingImg from "@/assets/weekly-reporting.jpg";
+import budgetPlanningImg from "@/assets/budget-planning.jpg";
+import landConsultationImg from "@/assets/land-consultation.jpg";
+import investmentGuidanceImg from "@/assets/investment-guidance.jpg";
 import soilImg from "@/assets/soil-hands.jpg";
 import coffeeImg from "@/assets/crop-coffee.jpg";
 import pepperImg from "@/assets/crop-pepper.jpg";
@@ -60,7 +69,7 @@ const flagship = [
     title: "JCB & Road Works",
     description:
       "Heavy-equipment execution for terrain shaping, internal roads, leveling and large-format estate access improvements.",
-    image: parallaxImg,
+    image: jcbImg,
     tone: "Terrain build-out",
     to: "/agricultural-inquiry",
   },
@@ -69,26 +78,26 @@ const flagship = [
     title: "Export support",
     description:
       "Buyer alignment, documentation, product positioning and route coordination for internationally market-ready supply.",
-    image: coffeeImg,
+    image: exportSupportImg,
     tone: "Trade desk",
     to: "/export-inquiry",
   },
 ];
 
 const supportServices = [
-  { icon: Sun, title: "Agricultural Solar Systems", description: "Power resilience for pumps and farm infrastructure using premium solar planning.", image: heroImg },
-  { icon: Droplets, title: "Water Management Solutions", description: "Irrigation mapping, storage planning and water efficiency tuned to the estate.", image: soilImg },
+  { icon: Sun, title: "Agricultural Solar Systems", description: "Power resilience for pumps and farm infrastructure using premium solar planning.", image: solarImg },
+  { icon: Droplets, title: "Water Management Solutions", description: "Irrigation mapping, storage planning and water efficiency tuned to the estate.", image: waterImg },
   { icon: Mountain, title: "Land Development", description: "Preparation of agricultural land for stable long-term cultivation and movement.", image: parallaxImg },
-  { icon: Sprout, title: "Crop Cultivation", description: "Crop selection and cultivation strategy informed by climate, soil and market timing.", image: cardamomImg },
-  { icon: Leaf, title: "Plantation Maintenance", description: "Seasonal pruning, shade, nutrition and operational care for plantation health.", image: pepperImg },
-  { icon: FileBarChart, title: "Weekly Reporting", description: "Structured operational updates that keep owners closely informed without being on-site.", image: tractorImg },
-  { icon: Wallet, title: "Budget Planning", description: "Transparent cultivation budgets, labour planning and cost control frameworks.", image: arecaImg },
+  { icon: Sprout, title: "Crop Cultivation", description: "Crop selection and cultivation strategy informed by climate, soil and market timing.", image: cropCultivationImg },
+  { icon: Leaf, title: "Plantation Maintenance", description: "Seasonal pruning, shade, nutrition and operational care for plantation health.", image: plantationMaintenanceImg },
+  { icon: FileBarChart, title: "Weekly Reporting", description: "Structured operational updates that keep owners closely informed without being on-site.", image: weeklyReportingImg },
+  { icon: Wallet, title: "Budget Planning", description: "Transparent cultivation budgets, labour planning and cost control frameworks.", image: budgetPlanningImg },
   { icon: ShieldCheck, title: "Crop Protection", description: "Practical pest and disease prevention using modern sustainable management.", image: soilImg },
   { icon: ShieldAlert, title: "Crop & Land Security", description: "Boundary awareness and harvest-window vigilance included with managed estates.", image: heroImg },
-  { icon: TrendingUp, title: "Investment Guidance", description: "Long-horizon agricultural wealth planning rooted in productive land performance.", image: coffeeImg },
+  { icon: TrendingUp, title: "Investment Guidance", description: "Long-horizon agricultural wealth planning rooted in productive land performance.", image: investmentGuidanceImg },
   { icon: Landmark, title: "Farmland Purchase", description: "Sourcing and evaluating agricultural land with operational viability in mind.", image: parallaxImg },
   { icon: FlaskConical, title: "Land Health Analysis", description: "Soil, water and climate analysis translated into clear cultivation decisions.", image: soilImg },
-  { icon: BookOpen, title: "Land Consultation", description: "Strategic advice for current owners and buyers entering plantation agriculture.", image: arecaImg },
+  { icon: BookOpen, title: "Land Consultation", description: "Strategic advice for current owners and buyers entering plantation agriculture.", image: landConsultationImg },
 ];
 
 function ServicesPage() {

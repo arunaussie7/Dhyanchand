@@ -7,15 +7,15 @@ import {
   Construction, Sun, Droplets, Mountain, Eye, Activity, ScanSearch, PackageCheck, TowerControl,
 } from "lucide-react";
 import heroImg from "@/assets/hero-plantation.jpg";
-import parallaxImg from "@/assets/parallax-fields.jpg";
-import soilImg from "@/assets/soil-hands.jpg";
-import coffeeImg from "@/assets/crop-coffee.jpg";
+import parallaxImg from "@/assets/jcb-road-works.jpg";
+import soilImg from "@/assets/water-management.jpg";
+import coffeeImg from "@/assets/export-support.jpg";
 import pepperImg from "@/assets/crop-pepper.jpg";
 import cardamomImg from "@/assets/crop-cardamom.jpg";
 import arecaImg from "@/assets/crop-areca.jpg";
 import tractorImg from "@/assets/tractor-field.jpg";
-import solarImg from "@/assets/solar-agriculture.svg";
-import financeImg from "@/assets/investment-guidance.svg";
+import solarImg from "@/assets/solar-agriculture.jpg";
+import financeImg from "@/assets/investment-guidance.jpg";
 import { Section, SectionHeading, Eyebrow } from "@/components/Section";
 import { SITE } from "@/lib/site";
 
