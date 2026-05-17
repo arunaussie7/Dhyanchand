@@ -14,6 +14,8 @@ import pepperImg from "@/assets/crop-pepper.jpg";
 import cardamomImg from "@/assets/crop-cardamom.jpg";
 import arecaImg from "@/assets/crop-areca.jpg";
 import tractorImg from "@/assets/tractor-field.jpg";
+import solarImg from "@/assets/solar-agriculture.svg";
+import financeImg from "@/assets/investment-guidance.svg";
 import { Section, SectionHeading, Eyebrow } from "@/components/Section";
 import { SITE } from "@/lib/site";
 
@@ -30,20 +32,20 @@ export const Route = createFileRoute("/")({
   component: HomePage,
 });
 
-const services = [
+  const services = [
   { icon: Tractor, title: "Farm Management", desc: "On-ground estate operations, labour supervision, crop planning and weekly owner reporting.", to: "/agricultural-inquiry", img: tractorImg, tone: "Operational command" },
   { icon: Construction, title: "JCB & Road Works", desc: "Internal roads, contour shaping, clearing and heavy-equipment execution for productive terrain.", to: "/agricultural-inquiry", img: parallaxImg, tone: "Terrain transformation" },
-  { icon: Sun, title: "Agricultural Solar", desc: "Modern solar systems for pumps, power resilience and lower long-term operating costs.", to: "/agricultural-inquiry", img: heroImg, tone: "Energy independence" },
+  { icon: Sun, title: "Agricultural Solar", desc: "Modern solar systems for pumps, power resilience and lower long-term operating costs.", to: "/agricultural-inquiry", img: solarImg, tone: "Energy independence" },
   { icon: Droplets, title: "Water Management", desc: "Irrigation mapping, source planning and water efficiency for climate-resilient estates.", to: "/agricultural-inquiry", img: soilImg, tone: "Water intelligence" },
   { icon: Globe2, title: "Export Support", desc: "Documentation, buyer matching and trade coordination for international agricultural supply.", to: "/export-inquiry", img: coffeeImg, tone: "Global trade desk" },
-  { icon: LineChart, title: "Investment Guidance", desc: "Agricultural wealth strategy shaped by land health, crop cycles and market timing.", to: "/agricultural-inquiry", img: arecaImg, tone: "Long-horizon planning" },
+  { icon: LineChart, title: "Investment Guidance", desc: "Agricultural wealth strategy shaped by land health, crop cycles and market timing.", to: "/agricultural-inquiry", img: financeImg, tone: "Long-horizon planning" },
 ];
 
 const crops = [
-  { name: "Coffee", img: coffeeImg, desc: "Premium Arabica and Robusta managed across hill-station estates.", pos: "object-center" },
-  { name: "Pepper", img: pepperImg, desc: "High-yield black pepper vines cultivated under shade canopy.", pos: "object-top" },
-  { name: "Cardamom", img: cardamomImg, desc: "Aromatic green cardamom grown in mist-laden plantation belts.", pos: "object-top" },
-  { name: "Areca Nut", img: arecaImg, desc: "Tall areca palms managed for consistent multi-year yields.", pos: "object-center" },
+  { name: "Coffee", img: coffeeImg, desc: "Premium Arabica and Robusta managed across hill-station estates." },
+  { name: "Pepper", img: pepperImg, desc: "High-yield black pepper vines cultivated under shade canopy." },
+  { name: "Cardamom", img: cardamomImg, desc: "Aromatic green cardamom grown in mist-laden plantation belts." },
+  { name: "Areca Nut", img: arecaImg, desc: "Tall areca palms managed for consistent multi-year yields." },
 ];
 
 const why = [
@@ -324,7 +326,7 @@ function HomePage() {
                     loading="lazy"
                     width={1280}
                     height={1280}
-                    className={`h-full w-full object-cover ${c.pos ?? "object-center"} transition-transform duration-[1.2s] group-hover:scale-110`}
+                    className="h-full w-full object-cover transition-transform duration-[1.2s] group-hover:scale-110"
                   />
                 </div>
                 <div className="p-6">
