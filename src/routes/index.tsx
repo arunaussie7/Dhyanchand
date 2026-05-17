@@ -9,7 +9,8 @@ import {
 import heroImg from "@/assets/hero-plantation.jpg";
 import parallaxImg from "@/assets/jcb-road-works.jpg";
 import soilImg from "@/assets/water-management.jpg";
-import coffeeImg from "@/assets/export-support.jpg";
+import coffeeImg from "@/assets/crop-coffee.jpg";
+import exportSupportImg from "@/assets/export-support.jpg";
 import pepperImg from "@/assets/crop-pepper.jpg";
 import cardamomImg from "@/assets/crop-cardamom.jpg";
 import arecaImg from "@/assets/crop-areca.jpg";
@@ -37,7 +38,7 @@ export const Route = createFileRoute("/")({
   { icon: Construction, title: "JCB & Road Works", desc: "Internal roads, contour shaping, clearing and heavy-equipment execution for productive terrain.", to: "/agricultural-inquiry", img: parallaxImg, tone: "Terrain transformation" },
   { icon: Sun, title: "Agricultural Solar", desc: "Modern solar systems for pumps, power resilience and lower long-term operating costs.", to: "/agricultural-inquiry", img: solarImg, tone: "Energy independence" },
   { icon: Droplets, title: "Water Management", desc: "Irrigation mapping, source planning and water efficiency for climate-resilient estates.", to: "/agricultural-inquiry", img: soilImg, tone: "Water intelligence" },
-  { icon: Globe2, title: "Export Support", desc: "Documentation, buyer matching and trade coordination for international agricultural supply.", to: "/export-inquiry", img: coffeeImg, tone: "Global trade desk" },
+  { icon: Globe2, title: "Export Support", desc: "Documentation, buyer matching and trade coordination for international agricultural supply.", to: "/export-inquiry", img: exportSupportImg, tone: "Global trade desk" },
   { icon: LineChart, title: "Investment Guidance", desc: "Agricultural wealth strategy shaped by land health, crop cycles and market timing.", to: "/agricultural-inquiry", img: financeImg, tone: "Long-horizon planning" },
 ];
 
